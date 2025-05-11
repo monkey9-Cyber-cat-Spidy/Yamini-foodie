@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Foodie</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; }
+    header, nav { background: white; padding: 1rem; box-shadow: 0 1px 4px rgba(0,0,0,0.1); }
+    nav a { margin: 0 1rem; text-decoration: none; color: black; font-weight: bold; }
+    .hero { position: relative; }
+    .hero img { width: 100%; height: auto; display: block; }
+    .hero-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      text-align: center;
+      background: rgba(0,0,0,0.5);
+      padding: 1rem 2rem;
+      border-radius: 10px;
+    }
+    .hero-text h1 { margin: 0; font-size: 24px; }
+    .hero-text p { margin: 0.5rem 0; }
+    .hero-text button { padding: 0.5rem 1rem; background: red; color: white; border: none; cursor: pointer; }
+
+    .about, .contact, .popular { padding: 2rem; }
+    .about h2, .popular h2, .contact h2 { color: #D49900; }
+    .about-content { display: flex; flex-direction: column; align-items: center; text-align: center; }
+    .about img { max-width: 100%; border-radius: 10px; }
+
+    .dishes { display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; }
+    .dish { border: 1px solid #ccc; padding: 1rem; border-radius: 10px; width: 200px; text-align: center; }
+    .dish img { width: 100%; border-radius: 10px; }
+    .dish button { margin-top: 0.5rem; background: orange; border: none; padding: 0.5rem; cursor: pointer; }
+
+    .contact { background: #111; color: white; text-align: center; }
+    .contact a { color: orange; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <span style="color: red; font-weight: bold;">Foodie</span>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Menu</a>
+    <a href="#">Testimonials</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <img src="https://i.ibb.co/BVQYs2GN/delicious-food.jpg" alt="delicious-food" border="0"></a>
+  <div class="hero-text">
+    <h1>Delicious meals Delivered to you</h1>
+    <p>Fresh, fast and yummy food</p>
+    <button>Order Now</button>
+  </div>
+</div>
+
+<section class="about">
+  <h2>About Us</h2>
+  <div class="about-content">
+    <img src="https://i.ibb.co/6cXcsTM8/food.jpg" alt="food" border="0"></a>
+    <p>We serve food that brings joy, crafted with care and served with love. Our dishes satisfy both hunger and heart. Founded in 2020, Foodie has quickly become the city's favorite food delivery service, known for our commitment to quality, freshness, and exceptional taste.</p>
+  </div>
+</section>
+
+<section class="popular">
+  <h2 style="text-align:center;">Popular Dishes</h2>
+  <div class="dishes">
+    <div class="dish">
+      <img src="https://i.ibb.co/bgKZCjBK/noddles.jpg" alt="noddles" border="0"></a>
+      <h3>Noodles</h3>
+      <p>Spicy noodles with a tangy flavor</p>
+      <p><strong>$11.99</strong></p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="dish">
+      <img src="https://i.ibb.co/dwSVCmLY/biryani.jpg" alt="biryani" border="0"></a>
+      <h3>Hyderabadi Biriyani</h3>
+      <p>Hyderabad special Dum spicy Biriyani</p>
+      <p><strong>$19.99</strong></p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="dish">
+      <img src="https://i.ibb.co/C3kpWL8v/rice.jpg" alt="rice" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'>frame image png</a><br />
+      <h3>Fried Rice</h3>
+      <p>Delicious & spicy fried rice with onions</p>
+      <p><strong>$17.99</strong></p>
+      <button>Add to Cart</button>
+    </div>
+  </div>
+</section>
+
+<section class="contact">
+  <h2>Contact Us</h2>
+  <p>Email: <a href="mailto:yaminikoyyana01@gmail.com">yaminikoyyana01@gmail.com</a></p>
+</section>
+
+</body>
+</html>
